@@ -81,8 +81,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - build_variant: "mt7620"
-            targets: "MI-MINI"
+          - build_variant: "mt7621"
+            targets: "MI-R3G"
     steps:
       - name: Checkout main            # 导入主分支
         uses: actions/checkout@main
